@@ -135,9 +135,9 @@
     <view name="gamelist">
         <grid name="grid">
             <origin>0 0</origin>
-            <pos>0 0.001</pos>
+            <pos>0.005 0.005</pos>
             <size>0.5 0.95</size>
-            <itemSpacing>0.0 0.0</itemSpacing>
+            <itemSpacing>0.005 0.005</itemSpacing>
             <itemSize>${gridItemSize}</itemSize>
             <imageType>cover</imageType>
             <imageRelativeScale>1</imageRelativeScale>
