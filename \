@@ -165,42 +165,21 @@
             <color>787878</color>
             <zIndex>20</zIndex>
         </image>
-        <!--
-        This manually recreates a miximage so that the screenshot can be replaced with the gameplay reel
-        -->
         <video name="md_video">
-            <pos>0.74 0.45</pos>
-            <maxSize>0.6 0.6</maxSize>
-            <cropSize>0.6 0.6</cropSize>
-            <origin>0.5 0.5</origin>
-            <imageType>screenshot</imageType>
+            <pos>0.464 0.1</pos>
+            <maxSize>0.7 0.7</maxSize>
+            <origin>0 0</origin>
+            <imageType>miximage</imageType>
             <interpolation>nearest</interpolation>
-            <delay>3</delay>
+            <delay>100</delay>
             <scrollFadeIn>true</scrollFadeIn>
-            <zIndex>4</zIndex>
+            <zIndex>28</zIndex>
         </video>
         <image name="titleimage">
-            <pos>0.75 0.07</pos>
+            <pos>0.76 0.09</pos>
             <origin>0 0</origin>
             <imageType>marquee</imageType>
-            <interpolation>nearest</interpolation>
             <maxSize>0.24 0.24</maxSize>
-            <zIndex>31</zIndex>
-        </image>
-        <image name="3dbox">
-            <pos>0.46 0.35</pos>
-            <origin>0 0</origin>
-            <imageType>3dbox</imageType>
-            <interpolation>nearest</interpolation>
-            <maxSize>0.2 0.45</maxSize>
-            <zIndex>31</zIndex>
-        </image>
-        <image name="physicalmedia">
-            <pos>0.615 0.6</pos>
-            <origin>0 0</origin>
-            <imageType>physicalmedia</imageType>
-            <interpolation>nearest</interpolation>
-            <maxSize>0.19 0.19</maxSize>
             <zIndex>31</zIndex>
         </image>
         <image name="yearbadge">
